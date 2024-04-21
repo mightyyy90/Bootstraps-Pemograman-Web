@@ -1,0 +1,54 @@
+.jumbotron {
+    width: 100%;
+    padding-top: 5rem;
+    background-color: #fff3cd;
+}
+
+.lingkaran {
+    position: relative;
+    display: inline-block;
+    background-color: #fff3cd;
+    border-radius: 50%;
+    width: 150px;
+    margin: auto;
+    height: 150px;
+    color: #664d03;
+}
+
+.lingkaran i {
+    position: relative;
+    top: 35px;
+}
+
+.blog {
+    width: 100%;
+    padding-top: 5rem;
+    background-color: #fff3cd;
+}
+
+article {
+    text-align: justify;
+}
+
+.lingkaran-artikel {
+    position: relative;
+    display: inline-block;
+    background-color: #fff3cd;
+    border-radius: 50%;
+    width: 70px;
+    margin: auto;
+    height: 70px;
+    color: #664d03;
+}
+
+.lingkaran-artikel i {
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+@media (max-width: 450px) {
+    #image-1 {
+        width: 150px;
+    }
+}
